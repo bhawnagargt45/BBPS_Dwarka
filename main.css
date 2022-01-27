@@ -1,0 +1,96 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* for Changing the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Adding a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* change the settings of webpage*/
+body{
+background-image:url(images/earth_2050.jpg);
+background-position: top right;
+background-repeat: no-repeat;
+background-size:100% 100%;
+
+}
+/* change the settings of heading tags*/
+h1{
+color:white
+}
+h2{
+color:white
+}
+/* change the settings of scroll*/
+.scroll{
+background-color:green
+}
+/* four containers  */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+ color:white;
+ text-align:center
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+/* change the settings of paragraph tags*/
+p{
+font-family:cambria;
+font-size: 20px;
+color:white
+}
+/* change the settings of img tag*/
+img
+{
+border-color:yellow
+}
+/* change the settings of frame*/
+.jobs
+{
+background-color: #9d5353;
+color: white;
+font-family: cambria;
+font-size: 20px
+}
+table
+{
+font-family: cambria;
+font-size: 20px
+}
+a:link{
+color:white
+}
+a:visited{
+color:yellow
+}
+
+a:active{
+color:pink
+}
